@@ -15,6 +15,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  //事件处理函数
+  bindViewTapTests: function () {
+    wx.navigateTo({
+      url: '../tests/tests'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
