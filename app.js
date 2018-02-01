@@ -6,11 +6,6 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    // 展示本地存储能力
-    var tests = wx.getStorageSync('tests') || []
-    tests.unshift(Date.now())
-    wx.setStorageSync('tests', tests)
-
     // 登录
     wx.login({
       success: res => {
