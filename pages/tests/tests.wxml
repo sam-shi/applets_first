@@ -1,6 +1,6 @@
 <!--tests.wxml-->
 <view class="container test-list">
-  <block wx:for="{{tests}}" wx:for-item="test">
-    <text class="test-item">{{index + 1}}. {{test}}</text>
+  <block wx:for="{{ads}}" wx:for-item="ad">
+    <text class="test-item">{{ad.id}}. {{ad.title}}</text>
   </block>
 </view>

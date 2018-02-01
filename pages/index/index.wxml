@@ -7,7 +7,6 @@
       <text bindtap="bindViewTapTests" class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <map longitude="113.324520" latitude="23.099994"></map>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
