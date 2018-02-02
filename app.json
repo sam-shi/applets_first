@@ -5,9 +5,27 @@
     "pages/tests/tests"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "第一个小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "第一个小程序"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "游戏",
+        "iconPath": "./assets/diamond.png",
+        "selectedIconPath": "./assets/diamond.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "./assets/star.png",
+        "selectedIconPath": "./assets/star.png"
+      }
+    ]
   }
 }
